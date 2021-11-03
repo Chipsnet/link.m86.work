@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{223:function(n,e,t){"use strict";t.r(e);var d={fetch:function(n){(0,n.redirect)(301,"https://discord.gg/T7twvvH6uB")}},c=t(42),component=Object(c.a)(d,undefined,undefined,!1,null,null,null);e.default=component.exports}}]);
