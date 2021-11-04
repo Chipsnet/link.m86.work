@@ -32,16 +32,26 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+      "nuxt-font-loader"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
       ["@nuxtjs/google-adsense", {
-          id: "ca-pub-7860710257272145"
+          id: "ca-pub-7860710257272145",
       }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
+  },
+
+  fontLoader: {
+      url: "https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+  },
+
+  server: {
+      host: "0.0.0.0"
   }
 }

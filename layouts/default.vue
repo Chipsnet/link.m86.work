@@ -1,6 +1,26 @@
 <template>
-  <div>
+  <div class="view">
+    <h1 class="zen">m86 Links</h1>
     <Nuxt />
-    <adsbygoogle :ad-slot="'2670301961'" />
+    <div class="google-ad">
+        <p class="zen">スポンサードリンク</p>
+        <adsbygoogle :ad-slot="'2670301961'" />
+    </div>
   </div>
 </template>
+
+<style scoped>
+    .zen {
+        font-family: 'Zen Kurenaido', sans-serif;
+    }
+
+    .view {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .google-ad {
+        margin: 50px 0;
+        text-align: center;
+    }
+</style>
