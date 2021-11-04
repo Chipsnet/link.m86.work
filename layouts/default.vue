@@ -6,6 +6,7 @@
         <p class="zen">スポンサードリンク</p>
         <adsbygoogle :ad-slot="'2670301961'" />
     </div>
+    <a href="https://github.com/Chipsnet/link.m86.work/blob/master/PRIVACY.md" class="zen" target="_blank">プライバシーポリシー</a>
   </div>
 </template>
 
